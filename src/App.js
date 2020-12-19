@@ -15,7 +15,12 @@ class App extends Component {
       id: 1,
       date: '12/19/2020',
       time: '12:03 a.m.',
-      title: 'testing',
+      title: 'i’m being chased by a time travelling ghost',
+      description:
+        'i don’t know why but i’m in my goddamn feels after watching rue’s special euphoria episode after season 1 ended',
+      body:
+        'i don’t know why but i’m in my goddamn feels after watching rue’s special euphoria episode after season 1 ended. i don’t know why but i’m in my goddamn feels after watching rue’s special euphoria episode after season 1 ended. i don’t know why but i’m in my goddamn feels after watching rue’s special euphoria episode after season 1 ended',
+      triggerWarnings: ['substance abuse', 'addiction', 'alcoholic’s anonymous', 'depression'],
     },
   ]
 

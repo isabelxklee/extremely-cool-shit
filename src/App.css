@@ -9,6 +9,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 200;
 }
 
 h1,
@@ -29,6 +30,11 @@ h1.landing-text {
 h3.landing-text {
   padding-left: 11rem;
   width: 50%;
+}
+
+h3.description {
+  font-weight: 500;
+  font-size: 2rem;
 }
 
 h2 {
