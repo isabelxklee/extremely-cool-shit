@@ -1,5 +1,18 @@
-header {
-  /* margin: 2rem; */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.landing-text {
+  width: 75%;
+}
+
+h1.landing-text {
+  font-size: 4rem;
+}
+
+h3 {
+  font-weight: 400;
 }
 
 p.left, p.right {
@@ -8,4 +21,8 @@ p.left, p.right {
 
 p.right {
   float: right;
+}
+
+p {
+  margin: 0;
 }
