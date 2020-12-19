@@ -5,17 +5,10 @@
   src: local('GT Flexa Extended'), url('./fonts/GT-Flexa-Extended-Light.woff2') format('woff2');
 }
 
-@font-face {
-  font-family: 'GT America';
-  font-weight: 200;
-  font-style: normal;
-  src: local('GT America'), url('./fonts/GT-America-Light.woff2') format('woff2');
-}
-
 body {
   padding: 0;
   margin: 0;
-  font-family: 'GT America', sans-serif;
+  font-family: 'Karla', sans-serif;
 }
 
 h1, h2 {
