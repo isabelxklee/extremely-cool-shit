@@ -26,6 +26,7 @@ h2 {
 h1.landing-text {
   font-size: 5rem;
   line-height: 5rem;
+  margin: 5rem 0;
 }
 
 h3.landing-text {
@@ -42,10 +43,6 @@ h2 {
   font-size: 3rem;
 }
 
-h2.post-preview {
-  width: 75%;
-}
-
 h2.post-preview.tw {
   color: #E0401D;
 }
@@ -58,6 +55,7 @@ h3 {
 p.left,
 p.right {
   display: inline-flex;
+  color: white;
 }
 
 p.right {
@@ -70,4 +68,8 @@ p {
 
 a {
   text-decoration: none;
+}
+
+a.footer {
+  color: black;
 }

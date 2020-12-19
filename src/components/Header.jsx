@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import styled from 'styled-components'
 
 const Links = styled.header`
@@ -9,7 +10,9 @@ const Links = styled.header`
 
 const Header = () => (
   <Links>
-    <p className="left">isabel k. lee's diary</p>
+    <Link to={`/`}>
+      <p className="left">isabel k. lee's diary</p>
+    </Link>
     <p className="right">proceed with caution</p>
   </Links>
 )
