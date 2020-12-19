@@ -16,6 +16,7 @@ h1,
 h2 {
   font-family: 'GT Flexa Extended', sans-serif;
   font-weight: 200;
+  margin: 1rem 0;
 }
 
 .landing-text {
@@ -41,6 +42,14 @@ h2 {
   font-size: 3rem;
 }
 
+h2.post-preview {
+  width: 75%;
+}
+
+h2.post-preview.tw {
+  color: #E0401D;
+}
+
 h3 {
   font-weight: 200;
   font-size: 1.4rem;
@@ -57,4 +66,8 @@ p.right {
 
 p {
   margin: 0;
+}
+
+a {
+  text-decoration: none;
 }
