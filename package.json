@@ -39,7 +39,7 @@
   "devDependencies": {
     "prettier": "2.2.1"
   },
-    "resolutions": {
-      "styled-components": "^5"
-    }
+  "resolutions": {
+    "styled-components": "^5"
+  }
 }
