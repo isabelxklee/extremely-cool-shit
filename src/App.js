@@ -1,8 +1,10 @@
 import React, {Component} from 'react'
 import Header from './components/Header.jsx'
+import Footer from './components/Footer.jsx'
 import IntroWrapper from './components/IntroWrapper.jsx'
+import Wrapper from './components/Wrapper.jsx'
 import Circle from './components/Circle.jsx'
-import PostsContainer from './PostsContainer.jsx'
+import PostPreview from './PostPreview.jsx'
 import './App.css'
 
 class App extends Component {
@@ -14,7 +16,9 @@ class App extends Component {
   postsArray = [
     {
       id: 1,
-      title: 'testing',
+      date: '12/19/2020',
+      time: '12:03 a.m.',
+      title: 'testing'
     },
   ]
 
@@ -25,7 +29,9 @@ class App extends Component {
   }
 
   render() {
-    console.log(this.state.posts)
+    const postsPreview = this.state.posts.map((post) => (
+      <PostPreview key={post.id} post={post} />      
+    ))
     
     return (
       <section className="app">
@@ -41,7 +47,10 @@ class App extends Component {
           </h3>
           <Circle />
         </IntroWrapper>
-        <PostsContainer posts={this.state.posts} />
+        <Wrapper>
+          {postsPreview}
+        </Wrapper>
+        <Footer />
       </section>
     )
   }

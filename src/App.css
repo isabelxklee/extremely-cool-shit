@@ -1,6 +1,25 @@
+@font-face {
+  font-family: 'GT Flexa Extended';
+  font-weight: 200;
+  font-style: normal;
+  src: local('GT Flexa Extended'), url('./fonts/GT-Flexa-Extended-Light-Trial.woff2') format('woff');
+}
+
+@font-face {
+  font-family: 'GT America Standard';
+  font-weight: 200;
+  font-style: normal;
+  src: local('GT America Standard'), url('./fonts/GT-America-Standard-Light.woff2') format('woff');
+}
+
 body {
   padding: 0;
   margin: 0;
+  font-family: 'GT America Standard', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'GT Flexa Extended', sans-serif;
 }
 
 .landing-text {
@@ -9,6 +28,10 @@ body {
 
 h1.landing-text {
   font-size: 4rem;
+}
+
+h2 {
+  font-size: 2rem;
 }
 
 h3 {
