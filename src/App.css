@@ -1,0 +1,11 @@
+header {
+  /* margin: 2rem; */
+}
+
+p.left, p.right {
+  display: inline-flex;
+}
+
+p.right {
+  float: right;
+}
