@@ -5,7 +5,7 @@ import Post from './Post.jsx'
 const PostsContainer = ({posts}) => (
   <Wrapper>
     {posts.map((post) => (
-      <Post key={post.id} post={post} />
+      <Post key={post.fields.id} post={post} />
     ))}
   </Wrapper>
 )

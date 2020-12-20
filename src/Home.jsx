@@ -8,8 +8,8 @@ import PostPreview from './PostPreview.jsx'
 
 class Home extends Component {
   render() {
-    const postsPreview = this.props.app.posts.map((post) => (
-      <PostPreview key={post.id} post={post} />
+    const postsPreview = this.props.posts.map((post) => (
+      <PostPreview key={post.fields.id} post={post} />
     ))
 
     return (
