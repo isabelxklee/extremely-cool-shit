@@ -3,6 +3,7 @@ import Wrapper from './components/Wrapper.jsx'
 import Header from './components/Header.jsx'
 import IntroWrapper from './components/IntroWrapper.jsx'
 import Circle from './components/Circle.jsx'
+import SmallCircle from './components/SmallCircle.jsx'
 
 const Post = ({post}) => (
   <section className="app">
@@ -14,6 +15,7 @@ const Post = ({post}) => (
       <h1 className="landing-text">{post.title}</h1>
       {post.triggerWarnings ? (
         <aside>
+          <SmallCircle />
           <p>trigger warnings</p>
           {post.triggerWarnings.join(", ")}
         </aside>
