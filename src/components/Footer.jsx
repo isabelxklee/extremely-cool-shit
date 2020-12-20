@@ -8,7 +8,11 @@ const Links = styled.footer`
 
 const Footer = () => (
   <Links>
-    <p className="right"><a href="https://www.kleetime.com/" target="no_referrer blank" className="footer">take me back to reality</a></p>
+    <p className="right">
+      <a href="https://www.kleetime.com/" target="no_referrer blank" className="footer">
+        take me back to reality
+      </a>
+    </p>
   </Links>
 )
 

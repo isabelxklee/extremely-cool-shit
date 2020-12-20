@@ -13,7 +13,7 @@ const handleSubmit = (values) => {
       title: values.title,
       description: values.description,
       body: values.body,
-      warnings: values.warnings.split(", ")
+      warnings: values.warnings.split(', '),
     }),
   })
     .then((response) => response.json())
@@ -25,16 +25,16 @@ const PostForm = () => {
     <section>
       <Formik
         initialValues={{
-          date: "",
-          time: "",
-          title: "",
-          description: "",
-          body: "",
-          warnings: ""
+          date: '',
+          time: '',
+          title: '',
+          description: '',
+          body: '',
+          warnings: '',
         }}
         onSubmit={(values, {resetForm}) => {
           handleSubmit(values)
-          resetForm({values: ""})
+          resetForm({values: ''})
         }}
       >
         {({isSubmitting}) => (

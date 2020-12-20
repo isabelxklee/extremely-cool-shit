@@ -7,7 +7,9 @@ const PostPreview = ({post}) => (
       {post.time} on {post.date}
     </p>
     <Link to={`/posts/${post.id}`}>
-      <h2 className={`${post.triggerWarnings ? "post-preview tw" : "post-preview"}`}>{post.title}</h2>
+      <h2 className={`${post.triggerWarnings ? 'post-preview tw' : 'post-preview'}`}>
+        {post.title}
+      </h2>
     </Link>
   </article>
 )

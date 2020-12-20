@@ -17,7 +17,7 @@ const Post = ({post}) => (
         <aside>
           <SmallCircle />
           <p>trigger warnings</p>
-          {post.triggerWarnings.join(", ")}
+          {post.triggerWarnings.join(', ')}
         </aside>
       ) : null}
       <Circle />
